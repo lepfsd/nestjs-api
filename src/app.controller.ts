@@ -8,6 +8,6 @@ export class AppController {
   @Get()
   getHello(): {name: string} {
     //return this.appService.getHello();
-    return {name: 'Max'};
+    return {name: 'Nest (or NestJS) is a framework for building efficient, scalable Node.js server-side applications.'};
   }
 }
